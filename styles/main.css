@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+
+}
+
+header {
+    background-color: #2e82f7;
+    height: 150px;
+}
+
+main {
+    background-color: rgb(109, 209, 239);
+    min-height: calc(100vh - 250px);
+}
+
+footer {
+    background-color: #696969;
+    height: 100px;
+}
