@@ -32,3 +32,43 @@ header img {
     padding: 0;
     background-color: tomato;
 }
+
+.book_Price_Like {
+    padding: 8px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heart {
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .heart::before {
+    content: '\2665';
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke: 2px red;
+    transition: all 0.2s ease;;
+  }
+
+  .heart.active::before {
+    color: red;
+    -webkit-text-stroke: 2px red;
+
+  }
+
+  .like_Container {
+    display: flex;
+    align-items: center;
+  }
+
+.book_Description {
+    background-color: lightseagreen;
+}
