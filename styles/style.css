@@ -76,11 +76,27 @@ header img {
 }
 
 .book_Comments {
-    overflow: auto;
     padding: 8px;
     background-color: lightyellow;
     max-height: 80px;
 
+}
+
+.overflowed::-webkit-scrollbar {
+    width: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.overflowed::-webkit-scrollbar-thumb {
+    background-color: blue;
+    width: 10px;
+    border-radius: 5px;
+}
+
+.overflowed {
+    overflow: auto;
+    max-height: 80px;
 }
 
 .book_Comments h3 {
