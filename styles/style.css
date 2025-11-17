@@ -1,4 +1,13 @@
+
+
 header img {
     height: 50px;
     margin: 10px;
+    border-radius: 10px;
+}
+
+.book_Container {
+    background-color: azure;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px 6px rgba(0, 0, 0, 0.3);
 }
