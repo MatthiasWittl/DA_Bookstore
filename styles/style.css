@@ -71,4 +71,18 @@ header img {
 
 .book_Description {
     background-color: lightseagreen;
+    padding: 8px;
+    border-bottom: 2px solid black;
+}
+
+.book_Comments {
+    overflow: auto;
+    padding: 8px;
+    background-color: lightyellow;
+    max-height: 80px;
+
+}
+
+.book_Comments h3 {
+    margin: 0;
 }
