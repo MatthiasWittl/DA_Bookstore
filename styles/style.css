@@ -86,3 +86,29 @@ header img {
 .book_Comments h3 {
     margin: 0;
 }
+
+.book_Add_Comment {
+    display: flex;
+    padding: 8px;
+    gap: 8px;
+    background-color: blueviolet;
+}
+
+.add_Comment_input {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid rgba(134, 159, 234, 1);
+    border-radius: 2px;
+    background-color: rgba(187, 183, 225, 0.85);
+    font-size: 18px;
+}
+
+.add_Comment_input::placeholder {
+    color: black;
+    font-size: 18px;
+}
+
+.book_Add_Comment button {
+    border: none;
+    background-color: transparent;
+}
