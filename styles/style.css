@@ -7,7 +7,7 @@ header img {
 }
 
 .book_Container {
-    background-color: azure;
+    background-color: rgb(16, 80, 99);
     border-radius: 5px;
     box-shadow: 1px 3px 3px 6px rgba(0, 0, 0, 0.3);
     display: flex;
@@ -27,7 +27,7 @@ header img {
 
 .book_Image {
     border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(111, 171, 193);
     margin: 0;
     padding: 0;
     background-color: tomato;
@@ -35,7 +35,7 @@ header img {
 
 .book_Price_Like {
     padding: 8px;
-    background-color: lightgreen;
+    background-color: rgb(10, 57, 74);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,26 +70,26 @@ header img {
   }
 
 .book_Description {
-    background-color: lightseagreen;
+    background-color: rgb(10, 57, 74);
     padding: 8px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(111, 171, 193);
 }
 
 .book_Comments {
     padding: 8px;
-    background-color: lightyellow;
+    background-color: rgb(10, 57, 74);
     max-height: 80px;
 
 }
 
 .overflowed::-webkit-scrollbar {
     width: 10px;
-    background-color: black;
+    background-color: rgb(1, 25, 37);
     border-radius: 5px;
 }
 
 .overflowed::-webkit-scrollbar-thumb {
-    background-color: blue;
+    background-color: rgb(122, 195, 218);
     width: 10px;
     border-radius: 5px;
 }
@@ -115,7 +115,7 @@ header img {
     border: 0;
     border-bottom: 2px solid rgba(134, 159, 234, 1);
     border-radius: 2px;
-    background-color: rgba(187, 183, 225, 0.85);
+    background-color: rgb(16, 80, 99);
     font-size: 18px;
 }
 
@@ -127,4 +127,8 @@ header img {
 .book_Add_Comment button {
     border: none;
     background-color: transparent;
+}
+
+.price_Tag {
+    color: rgb(238, 110, 102);
 }
