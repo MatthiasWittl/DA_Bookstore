@@ -8,7 +8,7 @@ function renderBooks (index) {
                 <img src="images/book.jpg" alt="Buch">
             </div>
             <section class="book_Price_Like" >
-                <span class="price_Tag" >Preis</span>
+                <span class="price_Tag" >${books[index].price}€</span>
                 <div class="like_Container">
                     <span>2650</span>
                     <button class="heart"></button>
