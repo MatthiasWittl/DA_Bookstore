@@ -10,7 +10,7 @@ function renderBooks (index) {
             <section class="book_Price_Like" >
                 <span class="price_Tag" >${books[index].price}€</span>
                 <div class="like_Container">
-                    <span>2650</span>
+                    <span>${books[index].likes}</span>
                     <button class="heart"></button>
                 </div>
                 
