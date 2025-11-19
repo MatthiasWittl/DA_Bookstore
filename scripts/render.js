@@ -18,16 +18,16 @@ function renderBooks (index) {
             <article class="book_Description" >
                 <table>
                         <tr>
-                            <td>1</td>
-                            <td>2</td>
+                            <td>Author</td>
+                            <td>${books[index].author}</td>
                         </tr>
                         <tr>
-                            <td>1</td>
-                            <td>2</td>
+                            <td>Erscheinungsjahr</td>
+                            <td>${books[index].publishedYear}</td>
                         </tr>
                         <tr>
-                            <td>1</td>
-                            <td>2</td>
+                            <td>Genre</td>
+                            <td>${books[index].genre}</td>
                         </tr>
                 </table>
             </article>
