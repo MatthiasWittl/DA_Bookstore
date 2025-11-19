@@ -34,34 +34,9 @@ function renderBooks (index) {
             <section class="book_Comments" >
                 <h3>Kommentare:</h3>
                 <div class="overflowed" >
-                <table>
-                    
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                    </tr>
+                    <table id="commentsTable${books[index].name}">
+                    </table>
                 </div>
-            </table>
             </section>
             <section class="book_Add_Comment" >
                 <input class="add_Comment_input" type="text" placeholder="Schreibe einen Kommentar...">
@@ -73,4 +48,16 @@ function renderBooks (index) {
         </section>
 
     `
+}
+
+function renderComments(index, i) {
+    return `
+        <tr>
+            <td>${books[index].comments[i].name}</td>
+            <td>${books[index].comments[i].comment}</td>
+        </tr>
+    `
+    
+    
+    
 }
