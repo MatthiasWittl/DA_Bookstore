@@ -67,7 +67,7 @@ header img {
     font-size: 40px;
     color: white;
     -webkit-text-stroke: 2px red;
-    transition: all 0.2s ease;;
+    transition: all 0.2s ease;
   }
 
   .heart.active::before {

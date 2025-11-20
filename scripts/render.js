@@ -10,8 +10,8 @@ function renderBooks (index) {
             <section class="book_Price_Like" >
                 <span class="price_Tag" >${books[index].price}€</span>
                 <div class="like_Container">
-                    <span>${books[index].likes}</span>
-                    <button class="heart"></button>
+                    <span id="Likes ${books[index].name}" >${books[index].likes}€</span>
+                    <button class="heart" id="button-${books[index].name}" onclick="heartFiller('${books[index].name}')" ></button>
                 </div>
                 
             </section>
