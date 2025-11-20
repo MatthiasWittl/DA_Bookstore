@@ -19,15 +19,15 @@ function renderBooks (index) {
                 <table>
                         <tr>
                             <td>Author</td>
-                            <td>${books[index].author}</td>
+                            <td>: ${books[index].author}</td>
                         </tr>
                         <tr>
                             <td>Erscheinungsjahr</td>
-                            <td>${books[index].publishedYear}</td>
+                            <td>: ${books[index].publishedYear}</td>
                         </tr>
                         <tr>
                             <td>Genre</td>
-                            <td>${books[index].genre}</td>
+                            <td>: ${books[index].genre}</td>
                         </tr>
                 </table>
             </article>
@@ -54,7 +54,7 @@ function renderComments(index, i) {
     return `
         <tr>
             <td>${books[index].comments[i].name}</td>
-            <td>${books[index].comments[i].comment}</td>
+            <td>: ${books[index].comments[i].comment}</td>
         </tr>
     `
     
