@@ -23,13 +23,16 @@ function checkLikedStatus(index) {
 }
 
 
-function heartFiller(Book) {
-    document.getElementById("button-" + Book).classList.toggle("active");
-    if (document.getElementById("button-" + Book).classList.contains("active")) {
-        console.log("Herz gefüllt");
+function heartFiller(BookName, BookLikes) {
+    document.getElementById("button-" + BookName).classList.toggle("active");
+    if (document.getElementById("button-" + BookName).classList.contains("active")) {
+        document.getElementById("Likes-" + BookLikes).innerHTML =
+        parseInt(document.getElementById("Likes-" + BookLikes).innerHTML) + 1 ;
+
         
     } else {
-        console.log("Herz leer");
+        document.getElementById("Likes-" + BookLikes).innerHTML =
+        parseInt(document.getElementById("Likes-" + BookLikes).innerHTML) - 1 ;
         
     }
 } 
