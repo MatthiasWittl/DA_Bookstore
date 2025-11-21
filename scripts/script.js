@@ -36,3 +36,10 @@ function heartFiller(BookName, BookLikes) {
         
     }
 } 
+
+function addComment(Book) {
+    input = document.getElementById("Input-" + Book).value; 
+    document.getElementById("Input-" + Book).value = "";
+    console.log(input);
+    
+}

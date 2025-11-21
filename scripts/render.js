@@ -39,8 +39,8 @@ function renderBooks (index) {
                 </div>
             </section>
             <section class="book_Add_Comment" >
-                <input class="add_Comment_input" type="text" placeholder="Schreibe einen Kommentar...">
-                <button type="button">&#10003</button>
+                <input id="Input-${books[index].name}" class="add_Comment_input" type="text" placeholder="Schreibe einen Kommentar...">
+                <button onclick="addComment('${books[index].name}')" type="button">&#10003</button>
             </section>
 
             
